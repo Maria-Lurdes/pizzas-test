@@ -1,0 +1,18 @@
+<h1>Popular Pizzas: </h1>
+
+
+<div class="pizzas-block">
+<mat-card *ngFor="let pizza of popularPizzas">
+    <div class="align-block">
+        <img src="../../../assets/images/pizza_facebook-min.png" alt="">
+        <h1>{{pizza[0]}}</h1>
+        <h1>Orders: {{pizza[1]}}</h1>
+    </div>
+</mat-card>
+</div>
+
+<h1> Popular Ingridients: </h1>
+<div class="ingridients-block"><mat-card><p *ngFor="let ingr of popularIngridients"><b>Name</b>: {{ingr.key}}, <b>sum</b>: {{ingr.value}}</p></mat-card></div>
+
+
+<button (click)="change()" class="cook-btn">Clear</button>

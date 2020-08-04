@@ -1,0 +1,57 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-icon-button{
+    width: 115px;
+  }
+
+  .mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .mat-toolbar span, .header button{
+    cursor: pointer;
+}
+
+.pizzas-block{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pizzas-block .mat-card {
+    width: 30% !important;
+    margin-bottom: 20px;
+}
+
+.pizzas-block .mat-card img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+.first{
+    display: none;
+}
+
+.align-block{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cook-btn{
+    border: none;
+    padding: 17px 25px;
+    background: #c2185b;
+    color: white;
+    font-size: 17px;
+}
